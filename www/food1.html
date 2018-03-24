@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="ctrl">
+
+  <ion-pane>
+    <ion-header-bar class="bar-stable">
+      <h1 class="title" style="text-align:center;font-size:300%;">Ekwang</h1>
+    </ion-header-bar>
+    <ion-content>
+      <hr>
+      <center>This is Ekwang. We have video on how to prepare it.</center>
+      <br>
+      <br>
+      <iframe style="margin:2%;" width="100%" height="200" src="https://www.youtube.com/embed/-pQzgLQkK4U" frameborder="0" allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
+      <p style="text-align:justify;margin:3%;">When you love someone and you want to express your love, make them some Ekwang. That is if the person knows what Ekwang is. It is one of the meals I cooked to declare my love for Mr N in the good old days. Making Ekwang is a process which involves grating, wrapping then wrapping some more. This thing could take some hours of your life. But there’s a reward. The reward is the scrumptiousness. There’s never enough Ekwang when I make some. It disappears fast! It’s the kind of food I dig into with no cutlery. It is rich in ethnic flavours: crayfish, palm oil. So finger-licking good! It is the perfect meal for a contri geh like me. Click below to watch me whipping it up.</p>
+    </ion-content>
+  </ion-pane>
+</body>
+
+</html>

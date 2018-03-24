@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+ion-content{
+    background-color:lightgrey;
+}
+
+.buttoncolor
+{
+    background-color: antiquewhite;
+}
+
+.alignclass{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
